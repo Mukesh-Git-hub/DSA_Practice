@@ -1,5 +1,6 @@
 class SelectionSort{
     public static void main(String[] args) {
+        //program selection sort
         int []array = {5,4,3,2,1};
         int n=array.length;
          for(int i=0;i<=n-2;i++){
