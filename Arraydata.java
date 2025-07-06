@@ -1,6 +1,6 @@
 public class Arraydata {
     public static void main(String[] args) {
-        int []array={10,20,30,50,40};
+        int []array={1,2,0,4};
 //         Bubblesort sort=new Bubblesort();
 //         sort.callsort(array);
 //         Insertionsort insertionsort=new Insertionsort();
@@ -14,8 +14,13 @@ public class Arraydata {
 //        missingnumber m=new missingnumber();
 //       int n=m.missingNumber(array);
 //        System.out.println(n);
-        Arraysroted a = new Arraysroted();
-        boolean some=a.call(array);
-        System.out.println(some);
+//        Arraysroted a = new Arraysroted();
+//        boolean some=a.call(array);
+//        System.out.println(some);
+//        RotatedOnePlace r=new RotatedOnePlace();
+//        r.call(array,3);
+        Movetoend m=new Movetoend();
+
+        m.call2(array);
     }
 }
