@@ -1,6 +1,7 @@
 public class Arraydata {
     public static void main(String[] args) {
-        int []array={1,2,0,4};
+        int []array={1,1,0,1,1,1,0,1};
+        int []array2={1,2,0,4};
 //         Bubblesort sort=new Bubblesort();
 //         sort.callsort(array);
 //         Insertionsort insertionsort=new Insertionsort();
@@ -19,8 +20,17 @@ public class Arraydata {
 //        System.out.println(some);
 //        RotatedOnePlace r=new RotatedOnePlace();
 //        r.call(array,3);
-        Movetoend m=new Movetoend();
+//        Movetoend m=new Movetoend();
+//
+////        m.call2(array);
+//        Union u =new Union();
+//        u.call(array,array2);
+//        Consecutive c =new Consecutive();
+//        System.out.println(c.findMaxConsecutiveOnes(array));
+        TwoSum two=new TwoSum();
+        two.twoSum(array,3);
 
-        m.call2(array);
+        MaxSubArray m=new MaxSubArray();
+        System.out.println(m.maxSubArray(array));
     }
 }
