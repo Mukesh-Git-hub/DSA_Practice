@@ -1,4 +1,4 @@
-
+package ArrayFolder;
 
 public class Insertionsort {
     void callsort(int []array){

@@ -1,3 +1,5 @@
+package ArrayFolder;
+
 public class missingnumber {
 
         public int missingNumber(int[] nums) {

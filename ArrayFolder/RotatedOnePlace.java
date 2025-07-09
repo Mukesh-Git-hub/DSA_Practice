@@ -1,3 +1,5 @@
+package ArrayFolder;
+
 public class RotatedOnePlace {
   void call(int[] array){
       int n= array.length;

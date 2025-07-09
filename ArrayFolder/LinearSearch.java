@@ -1,3 +1,5 @@
+package ArrayFolder;
+
 public class LinearSearch {
     int call(int[] array,int target){
         int index=-1;

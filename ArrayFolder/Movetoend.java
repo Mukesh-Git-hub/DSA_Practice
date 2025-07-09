@@ -1,3 +1,5 @@
+package ArrayFolder;
+
 public class Movetoend {
     void call(int []array){
         int count=0;

@@ -1,3 +1,5 @@
+package ArrayFolder;
+
 public class Consecutive {
 
         public int findMaxConsecutiveOnes(int[] nums) {

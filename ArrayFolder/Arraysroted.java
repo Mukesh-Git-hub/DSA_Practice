@@ -1,3 +1,5 @@
+package ArrayFolder;
+
 public class Arraysroted
 {
     boolean call(int []array){

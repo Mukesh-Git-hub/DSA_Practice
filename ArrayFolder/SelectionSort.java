@@ -1,3 +1,5 @@
+package ArrayFolder;
+
 class SelectionSort{
     public static void main(String[] args) {
         //program selection sort

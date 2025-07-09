@@ -1,3 +1,5 @@
+package ArrayFolder;
+
 public class Removedup {
     public static void main(String[] args) {
         int[] array = {1, 1, 2, 2, 3, 3, 4};
