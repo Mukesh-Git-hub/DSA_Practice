@@ -34,5 +34,7 @@ public class Arraydata {
 //
 //        ArrayFolder.MaxSubArray m=new ArrayFolder.MaxSubArray();
 //        System.out.println(m.maxSubArray(array));
+        LongestSubArrayWithK k=new LongestSubArrayWithK();
+        System.out.println( k.call());
     }
 }

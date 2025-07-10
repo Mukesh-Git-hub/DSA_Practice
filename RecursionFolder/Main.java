@@ -16,8 +16,10 @@ int count=0;
 //      pn.fNumber(1,5);
 //      ReverseNumber r=new ReverseNumber();
 //      r.fNumberreverse(10,1);
-        LinearTrack L=new LinearTrack();
-        L.f(8,8);
+//        LinearTrack L=new LinearTrack();
+//        L.f(8,8);
+        Power p=new Power();
+        System.out.println(p.call(3,2));
     }
    static void f(int count){
         if(count>3){
