@@ -18,15 +18,11 @@ int count=0;
 //      r.fNumberreverse(10,1);
 //        LinearTrack L=new LinearTrack();
 //        L.f(8,8);
-        Power p=new Power();
-        System.out.println(p.call(3,2));
+//        Power p=new Power();
+//        System.out.println(p.call(3,2));
+        multiple m=new multiple();
+        System.out.println( m.call(5));
     }
-   static void f(int count){
-        if(count>3){
-            return;
-        }
-       System.out.println(count);
-        f(count+1);
-   }
+
 
 }
