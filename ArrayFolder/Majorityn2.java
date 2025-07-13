@@ -1,5 +1,7 @@
 package ArrayFolder;
 
+import java.util.HashMap;
+
 public class Majorityn2 {
     public int majorityElement(int[] nums) {
         int count=0;
@@ -18,4 +20,22 @@ public class Majorityn2 {
         }
         return -1;
     }
+    public static int majority(int [] array){
+        HashMap<Integer,Integer> map = new HashMap<>();
+        int n=array.length;
+        for(int num:array){
+            if(map.containsKey(num)){
+                int count = map.get(num);
+                map.put(num,count+1);
+            }
+            else{
+                map.put(num,1);
+            }
+            if(map.get(num)>n/2){
+                return num;
+            }
+        }
+        return -1;
+    }
+
 }
