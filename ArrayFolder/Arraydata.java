@@ -5,6 +5,7 @@ public class Arraydata {
         int []array={1,1,0,1,1,1,0,1};
         int []array2={1,2,0,4};
         int []array0={2,0,2,1,1,0};
+        int [] searcharray={1,3,4,5,6};
 //         ArrayFolder.Bubblesort sort=new ArrayFolder.Bubblesort();
 //         sort.callsort(array);
 //         ArrayFolder.Insertionsort insertionsort=new ArrayFolder.Insertionsort();
@@ -37,7 +38,11 @@ public class Arraydata {
 //        System.out.println(m.maxSubArray(array));
 //        LongestSubArrayWithK k=new LongestSubArrayWithK();
 //        System.out.println( k.call());
-        Sorted012 s=new Sorted012();
-        s.call(array0);
+//        Sorted012 s=new Sorted012();
+//        s.call(array0);
+        SearchInsertPosition s= new SearchInsertPosition();
+       int result= s.call(searcharray,9);
+        System.out.println("program start");
+        System.out.println(result);
     }
 }
