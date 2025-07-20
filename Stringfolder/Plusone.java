@@ -1,7 +1,7 @@
 package Stringfolder;
 
 public class Plusone {
-    void call(int[]digits){
+    int[] call(int[]digits){
 
 
         for(int i=digits.length-1;i>=0;i--){
