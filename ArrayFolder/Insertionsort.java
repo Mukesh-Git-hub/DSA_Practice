@@ -15,4 +15,16 @@ public class Insertionsort {
         }
 
 }
+void recursionInsertionSort(int[] array,int i){
+        int n= array.length;
+        if(i==n) return;
+        for(int j=i;j>0;j--){
+            if(array[j-1]>array[j]){
+                int temp= array[j];
+                array[j]=array[j-1];
+                array[j-1]=temp;
+            }
+        }
+        recursionInsertionSort(array,i+1);
+}
 }
