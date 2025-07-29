@@ -20,6 +20,9 @@ public class Main {
         DeleteCharacter d = new DeleteCharacter();
        String s= d.makeFancyString("leeetcode");
         System.out.println(s);
+        Largestodd l = new Largestodd();
+        String n=l.largestOddNumber("54322");
+        System.out.println(n);
     }
     }
 
