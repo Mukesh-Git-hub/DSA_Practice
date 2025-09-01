@@ -4,7 +4,6 @@ public class Linkedlist {
     Nodecreator head;
 
 
-
     public void add(int data) {
         Nodecreator newnode= new Nodecreator(data);
         if (head == null) {
